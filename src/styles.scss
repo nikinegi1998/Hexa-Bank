@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+$bg-color: #F5F5F5;
+$white-color: #fff;
+
+body {    
+    background-color: $bg-color !important;
+}
+
+.card-content-bg{
+    background-color: $white-color;
+}

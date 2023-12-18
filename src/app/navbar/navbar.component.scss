@@ -1,0 +1,17 @@
+$blue: #000034;
+$white: #fff;
+$txt-white: #BBBCD8;
+
+header {
+    background-color: $blue;
+}
+
+nav {
+    p {
+        color: $txt-white;
+    }
+
+    button {
+        color: $blue;
+    }
+}
