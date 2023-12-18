@@ -1,12 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 
-$bg-color: #F5F5F5;
-$white-color: #fff;
+$body-bg-color: #F5F5F5;
+$blue: #000034;
+$white: #fff;
+$off-white: #BBBCD8;
 
-body {    
-    background-color: $bg-color !important;
+body {
+    background-color: $body-bg-color !important;
 }
 
-.card-content-bg{
-    background-color: $white-color;
+.body-bg{
+    background-color: $body-bg-color;
+}
+
+.white-bg {
+    background-color: $white;
+}
+
+.blue-bg {
+    background-color: $blue;
+}
+
+.off-white-bg {
+    background-color: $off-white;
+}
+
+
+.white-txt {
+    color: $white;
+}
+
+.blue-txt {
+    color: $blue;
+}
+
+.off-white-txt {
+    color: $off-white;
 }

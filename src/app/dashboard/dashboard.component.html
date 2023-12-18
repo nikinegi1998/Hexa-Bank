@@ -9,14 +9,21 @@
 
 
             <!-- overview card -->
-            <div class="card border-0 rounded-4 p-3 card-content-bg my-3">
+            <div class="card border-0 rounded-4 p-3 white-bg my-3">
                 <div class="d-flex justify-content-between">
-                    <h3 class="fw-bold">Overview</h3>
+                    <h3 class="fw-bold ">Overview</h3>
 
-                    <input type="search" name="" id="">
+                    <!-- <input type="search" class="form-control w-50 white-bg" name=""
+                        placeholder="Search anything here..." id=""> -->
+                    <div class="input-group w-50">
+                        <span class="input-group-text body-bg border-0">@</span>
+                        <input type="search" class="form-control body-bg border-0" placeholder="Search anything here..."
+                            aria-describedby="basic-addon1">
+                    </div>
 
                     <div>
                         <div class="card d-inline">
+                            <i class="fa-light fa-envelope" style="color: #bcbec6;"></i>
                             <i class="fa-light fa-envelope" style="color: #bcbec6;"></i>
                         </div>
                         <div class="card d-inline">
@@ -24,7 +31,21 @@
                         </div>
                     </div>
                 </div>
-                
+
+            </div>
+
+
+            <div class="d-flex">
+
+                <!-- my cards -->
+                <div class="w-25">
+
+                </div>
+
+                <!-- total balance -->
+                <div class="w-75">
+
+                </div>
             </div>
         </div>
     </div>
